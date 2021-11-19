@@ -1,1 +1,14 @@
+# Site settings
+title: Tuner for Ukulele
 theme: jekyll-theme-minimal
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+permalink: pretty
+
+plugins:
+- jemoji
+- jekyll-remote-theme # add this line to the plugins list if you already have one
